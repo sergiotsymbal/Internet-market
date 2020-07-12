@@ -27,6 +27,7 @@ body{
     font-size: 15px;
     line-height: 24px;
     color: $text;
+    overflow-x: hidden;
 }
 
 
@@ -109,5 +110,15 @@ body{
     }
 }
 
-
-// 1:25min
+.angle-right{
+    position: relative;
+    padding-left: 15px;
+    &::before{
+        content: "\f106";
+        font-family: 'icomoon';
+        position: absolute;
+        left: 0;
+        color: $green;
+        font-size: 14px;
+    }
+}
